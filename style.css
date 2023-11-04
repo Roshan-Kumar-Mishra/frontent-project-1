@@ -198,7 +198,7 @@ padding-top: 5px;
 .c-2{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .c-3{
     display: flex;
@@ -458,32 +458,46 @@ padding-top:20px ;
 .date{
     padding-top: 20px;
 }
-@media screen and (max-width:600px){
-   .nav-top{
-    flex-direction: column;
-    align-items: flex-start;
-   }
-   .nav-info{
-    display: none;
-   }
-   .dashboard{
-    display: grid;
-    grid-template-columns: 1fr;
-    flex-direction: column;
-   }
-   .companies-images{
-    display: grid;
-    flex-direction: column;
-    grid-template-columns: repeat(2, 1fr);
-   }
-   .extra-info{
-    width: 300px;
-   }
-   .arrow{
-    display: none;
-   }
-}
-@media screen and (max-width: 768px){
+ @media screen and (max-width: 992px){
+    .nav-top{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+       }
+       .success-stories{
+        padding: 0px
+       }
+       .nav-info{
+        display: none;
+       }
+       .dashboard{
+        display: grid;
+        grid-template-columns: 1fr;
+        flex-direction: column;
+       }
+       .companies-images{
+        display: grid;
+        flex-direction: column;
+        grid-template-columns: repeat(2, 1fr);
+       }
+       .extra-info{
+        width: 300px;
+       }
+       .arrow{
+        display: none;
+       }
+       .card-1{
+        width: 400px;
+       }
+       .card-1-main{
+        padding: 0px;
+        margin: 3px;
+       }
+       .card-1-main{
+        
+       }
+} 
+ /* @media screen and (max-width: 1200px){
   .nav-top{
     display: flex;
     flex-direction: column;
@@ -497,10 +511,16 @@ padding-top:20px ;
   .dashboard{
     display: grid;
     flex-direction: column;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
   }
-}
-@media screen and (max-width: 992px){
+  .extra-info{
+    width: 300px;
+  }
+  .arrow{
+    display: none;
+  }
+} */
+ /* @media screen and (max-width: 992px){
     .companies-images{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -516,9 +536,9 @@ padding-top:20px ;
        }
        .extra-info{
         width: 300px;
-       }
-}
-@media screen and (max-width: 1200px){
+        } 
+}  */
+ /* @media screen and (max-width: 1100px){
     .dashboard{
         display: grid;
         grid-template-columns: repeat(2 , 1fr);
@@ -532,5 +552,5 @@ padding-top:20px ;
     .arrow>img{
         width: 100px;
     }
-}
+}  */
 
